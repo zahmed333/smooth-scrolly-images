@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+}
+
+.jumbotron {
+   background-color: black;
+   margin-bottom: 0;
+   padding: 10px 0 20px 0;
+}
+
+.jumbotron h1 {
+  font-family: consolas;
+  background-color: #00ff00;
+  color: black !important;
+}
+
+.h1 {
+  font-family: consolas, sans-serif;
+  color: #00ff00;
+}
+
+a {
+  color: #00ff00;
+}
+
+.img-along-text {
+  margin: 10px 0px 10px 0px;
+}
+
+p {
+  font-family: monospace, sans-serif;
+  color: #00ff00;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  background-color: #00ff00;
+  color: black;
+}
+
+.quote-author {
+  font-size: 15px;
+  color: #00ff00;
+  text-align: center;
+}
+
+em {
+  font-size: 15px !important;
+  font-style: normal;
+  color: #00ff00;
+}
+
+.big-box a {
+  font-size: 20px;
+  font-style: normal;
+  color: #0f0;
+}
+
+.big-box {
+  font-family: consolas;
+  text-align: center;
+  padding: 5px;
+}
+
+.big-box:hover {
+  background-color: #0f0;
+}
+
+.big-box:hover a {
+  color: #000;
+}
+
+.story {
+  margin-top: 0;
+}

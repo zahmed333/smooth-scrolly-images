@@ -71,8 +71,6 @@ body {
   padding-top: 60vh;
   position: relative;
   width: 100%;
-  height: auto; /* Adjusted for better layout */
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 10px;
   justify-items: center;
@@ -86,8 +84,21 @@ img {
   object-fit: cover;
 }
 
+.images a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.images a img {
+  max-width: 100%;  /* Ensures images are not more than 100% of their container */
+  height: auto;     /* Maintains aspect ratio */
+}
+
+
+
 /* Specific positioning can be adjusted as per the actual layout requirements */
-img:nth-child(1) { grid-area: 1/1/6/8; }
+img:nth-child(1) { grid-area: 1/1/6/10; }
 img:nth-child(2) { grid-area: 3/12/8/20; }
 img:nth-child(3) { grid-area: 9/5/13/15; }
 img:nth-child(4) { grid-area: 14/1/18/8; }
