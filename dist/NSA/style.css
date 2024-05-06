@@ -1,8 +1,8 @@
 .hero {
-  min-height: 300px;
+  min-height: 400px;
   width: 100%;
   overflow: hidden;
-  background: url(https://s-media-cache-ak0.pinimg.com/originals/11/4a/ae/114aae7aedae0793d141c1864aa31952.jpg);
+  background: url(Colgate\ Path.png);
   background-size: cover;
 }
 body {

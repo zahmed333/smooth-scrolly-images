@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  background: white;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  padding: 0;
+}
+/* Back Button Style */
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #FFFFFF; /* Light background for visibility */
+  color: #000000; /* Dark text for contrast */
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif; /* Ensuring a consistent font */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for 3D effect */
+  z-index: 1000; /* Ensures it is above other content */
+}
+
+.back-button:hover {
+  background-color: #f8f8f8; /* Slightly darker on hover for feedback */
+  cursor: pointer; /* Shows a hand icon on hover to indicate clickability */
+}

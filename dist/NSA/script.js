@@ -42,12 +42,6 @@ function randomInt(min, max){
 // Glitch functionality
 function glitch() {
 
-	// Initialize the glitches
-	// - Create divs
-	// - Load divs from <glitch> element
-	// - Set body to not scroll on x-axis
-	// - Starts glitch animations
-
 	this.init = function() {
 		page_content = $('glitch').html();
 		$('body').css('overflow-x', 'hidden');
